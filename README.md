@@ -1,0 +1,38 @@
+# MCL775 Project — Model-Free RL Algorithm Comparison on Gridworld
+
+**Course**: MCL775, IIT Delhi  
+**Group Members**: Shreenath, Swapnil, Inderpal, Kirtan
+
+## Algorithms Implemented
+- Q-Learning
+- Entropy-Regularized Q-Learning (G-Learning)
+- SARSA
+- Expected SARSA
+- Double Q-Learning
+- REINFORCE (Policy Gradient)
+- Actor-Critic (A2C)
+
+## Environment
+8×8 Stochastic Gridworld from Fox et al. (2016).
+Terminal state at [4,4]. 15 blocked cells. 
+Stochastic transitions: 70% intended, 30% random drift.
+
+## Setup
+```bash
+conda create -n mcl775 python=3.10 -y
+conda activate mcl775
+pip install -r requirements.txt
+python -m ipykernel install --user --name mcl775 --display-name "MCL775 RL"
+```
+
+## Running Experiments
+Open `notebooks/main_experiments.ipynb` in VSCode.
+Select kernel: "MCL775 RL (Python 3.10)".
+Run all cells sequentially.
+
+## LLM Usage Disclosure
+[Fill this in as you go — be specific about which parts used Claude/GPT]
+
+## References
+Fox, R., Pakman, A., & Tishby, N. (2017). Taming the Noise in Reinforcement 
+Learning via Soft Updates. UAI 2016. arXiv:1512.08562
