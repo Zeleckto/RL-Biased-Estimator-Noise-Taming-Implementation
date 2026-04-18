@@ -17,7 +17,7 @@ venv/
 *.mat
 *.npy
 *.npz
-results/
+
 outputs/
 
 # OS files
@@ -26,3 +26,5 @@ Thumbs.db
 
 # VSCode
 .vscode/settings.json
+
+report/
