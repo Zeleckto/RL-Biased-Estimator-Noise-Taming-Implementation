@@ -34,9 +34,10 @@ The central question studied is: **how do different algorithms handle the optimi
 - The distinction between value accuracy (MAE) and policy quality (policy error) is a central empirical finding — TRPO ranks 7th on MAE but 2nd on policy error
 
 **Group Members:**
-- [Member 1 Name] — [Entry Number]
-- [Member 2 Name] — [Entry Number]
-- [Member 3 Name] — [Entry Number]
+- Shreenath
+- Kirtan
+- Swapnil
+- Inderpal
 
 ---
 
