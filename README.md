@@ -11,6 +11,7 @@
 - Double Q-Learning
 - REINFORCE (Policy Gradient)
 - Actor-Critic (A2C)
+- TPRO (If time permits)
 
 ## Environment
 8×8 Stochastic Gridworld from Fox et al. (2016).
